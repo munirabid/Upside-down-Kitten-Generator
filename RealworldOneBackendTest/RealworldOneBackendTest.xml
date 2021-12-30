@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RealworldOneBackendTest</name>
+    </assembly>
+    <members>
+        <member name="M:RealworldOneBackendTest.Controllers.CatController.Get">
+            <summary>
+            Gets the random cat image and returns upsidedown image.
+            </summary>
+        </member>
+        <member name="M:RealworldOneBackendTest.Controllers.UsersController.RegisterUser(RealworldOneBackendTest.Models.User)">
+            <summary>
+            Registers user using in memory database.
+            </summary>
+        </member>
+        <member name="M:RealworldOneBackendTest.Controllers.UsersController.Authenticate(RealworldOneBackendTest.Models.AuthenticateModel)">
+            <summary>
+            Authenticates user and return JWT Token with user data.
+            </summary>
+        </member>
+        <member name="M:RealworldOneBackendTest.Controllers.UsersController.GetUsers">
+            <summary>
+            Retrieves list of users. Uses JWT Authentication.
+            </summary>
+        </member>
+        <member name="M:RealworldOneBackendTest.Controllers.UsersController.GetUser(System.Int32)">
+            <summary>
+            Retrieves a specific user by unique id, uses JWT authntication.
+            </summary>
+        </member>
+        <member name="M:RealworldOneBackendTest.Controllers.UsersController.GetUserById(System.Int32)">
+            <summary>
+            Retrieves a specific user by unique id, uses Basic authentication.
+            </summary>
+        </member>
+    </members>
+</doc>
