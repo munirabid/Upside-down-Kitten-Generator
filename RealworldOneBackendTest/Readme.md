@@ -31,3 +31,8 @@ To test other methods follow below steps.
 
 ## Setup
 To run this project simple run the project and it will open a browser page with swagger interface.
+Please chage the RealworldOneBackendTest.xml path according to your directory. 
+Follow the steps below
+* Right click on project. Then go to properties.
+* Select Build section.
+* Change the path of XML documentation File  according to your local directory. 
